@@ -3,10 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from datetime import datetime, date
 from typing import Optional, List
-from pydantic import BaseModel
-
-# Modelos de datos
-from typing import List, Optional
 from pydantic import BaseModel, Field
 
 # Esquema de Metadata para la información adicional de cada asegurado
